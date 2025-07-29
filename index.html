@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Ragil Hidayatulloh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-black text-white overflow-x-hidden">
+    <div class="fixed inset-0 z-0">
+      <div
+        class="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-teal-900/20"
+      ></div>
+      <div class="floating-particles"></div>
+    </div>
+
+    <nav class="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-md">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+          <div
+            class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-teal-400 bg-clip-text text-transparent"
+          >
+            Ragil Hidayatulloh
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="home"
+      class="relative min-h-screen flex items-center justify-center"
+    >
+      <div class="text-center z-10 max-w-6xl mx-auto px-2 w-full">
+        <div class="hero-content space-y-6">
+          <div class="hero-title-container">
+            <h1 class="hero-title typing-animation">
+              <span class="gradient-text">
+                Hi, I'm a Freelance Developer.
+              </span>
+            </h1>
+          </div>
+
+          <p class="hero-subtitle fade-in-up delay-1">
+            Crafting digital experiences with passion and precision
+          </p>
+
+          <div class="hero-buttons fade-in-up delay-2">
+            <button class="cta-button primary">
+              <span>View My Work</span>
+              <i class="fas fa-arrow-right ml-2"></i>
+            </button>
+            <button class="cta-button secondary">
+              <span>Download CV</span>
+              <i class="fas fa-download ml-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="absolute bottom-8 left-1/2 transform -translate-x-1/2 scroll-indicator"
+      >
+        <div
+          class="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center"
+        >
+          <div
+            class="w-1 h-3 bg-gradient-to-b from-purple-400 to-teal-400 rounded-full mt-2 animate-bounce"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 relative z-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 section-title">
+            About Me
+          </h2>
+          <div
+            class="w-24 h-1 bg-gradient-to-r from-purple-400 to-teal-400 mx-auto"
+          ></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="about-text text-center md:text-left">
+            <h3 class="text-2xl font-bold mb-6 text-purple-400">
+              I'm Ragil Hidayatulloh, a passionate freelance developer
+            </h3>
+            <p class="text-gray-300 mb-6 leading-relaxed">
+              I'm a fullstack developer with a passion for creating innovative
+              digital solutions. With expertise in both frontend and backend
+              technologies, I bring ideas to life through clean, efficient code
+              and stunning user experiences.
+            </p>
+            <p class="text-gray-300 mb-8 leading-relaxed">
+              In addition to my web development experience, I am expanding my
+              skills into mobile development. I am committed to continuous
+              learning and staying current with the latest technologies to
+              deliver robust and versatile solutions.
+            </p>
+
+            <div class="grid grid-cols-2 gap-6">
+              <div class="stat-card">
+                <div class="text-3xl font-bold text-purple-400">7+</div>
+                <div class="text-gray-400">Projects Completed</div>
+              </div>
+              <div class="stat-card">
+                <div class="text-3xl font-bold text-purple-400">2+</div>
+                <div class="text-gray-400">Years Experience</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image">
+            <div class="relative">
+              <div
+                class="w-80 h-80 mx-auto bg-gradient-to-br from-purple-500/20 to-teal-500/20 rounded-full flex items-center justify-center"
+              >
+                <img
+                  src="assets/profile.png"
+                  alt="profile"
+                  class="rounded-full w-72 h-72 object-cover shadow-lg"
+                />
+              </div>
+              <div class="floating-icons">
+                <i class="devicon-java-plain colored"></i>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-python-plain colored"></i>
+                <i class="devicon-tailwindcss-plain colored"></i>
+                <i class="devicon-laravel-plain colored"></i>
+                <i class="devicon-mysql-plain colored"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-20 relative z-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 section-title">
+            Skills & Technologies
+          </h2>
+          <div
+            class="w-24 h-1 bg-gradient-to-r from-purple-400 to-teal-400 mx-auto"
+          ></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="skill-category">
+            <div class="skill-header">
+              <i class="fas fa-palette text-purple-400 text-3xl mb-4"></i>
+              <h3 class="text-xl font-bold mb-6">Frontend</h3>
+            </div>
+            <div class="space-y-4">
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span>JavaScript</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span>CSS/Tailwind</span>
+                  <span>88%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="88"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span>Bootsrap</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-header">
+              <i class="fas fa-server text-teal-400 text-3xl mb-4"></i>
+              <h3 class="text-xl font-bold mb-6">Backend</h3>
+            </div>
+            <div class="space-y-4">
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span>PHP</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span>Python</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span>sqlite</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="75"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-header">
+              <i class="fas fa-tools text-pink-400 text-3xl mb-4"></i>
+              <h3 class="text-xl font-bold mb-6">Tools & Others</h3>
+            </div>
+            <div class="space-y-4">
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span>Git</span>
+                  <span>92%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="92"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span>Figma</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="70"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-20 relative z-10 overflow-hidden">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 section-title">
+            Featured Projects
+          </h2>
+          <div
+            class="w-24 h-1 bg-gradient-to-r from-purple-400 to-teal-400 mx-auto"
+          ></div>
+        </div>
+      </div>
+
+      <div class="relative max-w-7xl mx-auto">
+        <div class="swiper project-swiper px-4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-card">
+                <div class="project-image">
+                  <div
+                    class="bg-gradient-to-br from-purple-500 to-pink-500 h-48 flex items-center justify-center"
+                  >
+                    <img
+                      src="assets/project1.png"
+                      alt="project1"
+                      class="w-full h-full object-cover rounded-t-lg"
+                    />
+                  </div>
+                  <div class="project-overlay">
+                    <div class="flex space-x-4">
+                      <a
+                        href="https://github.com/NemesisID/BIOTA---Flutter-v1.0.0/releases/tag/v1.0.0-alpha"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn"
+                        title="Download APK"
+                      >
+                        <i class="fas fa-download"></i>
+                      </a>
+                      <a
+                        href="https://github.com/NemesisID/BIOTA---Flutter-v1.0.0/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn"
+                        title="Lihat Kode"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6 project-content">
+                  <h3 class="text-xl font-bold mb-2">BIOTA Mobile App</h3>
+                  <p class="text-gray-400 mb-4">
+                    Biodiversity Tracker and Awareness, A Mobile Application for
+                    Ecosystem Conservation in Indonesia.
+                  </p>
+                  <div class="flex flex-wrap gap-2 project-tech-icons">
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg"
+                        alt="Dart"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                        alt="Flutter"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+                        alt="sqflite"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="project-card">
+                <div class="project-image">
+                  <div
+                    class="bg-gradient-to-br from-purple-500 to-pink-500 h-48 flex items-center justify-center"
+                  >
+                    <img
+                      src="assets/project2.jpg"
+                      alt="project2"
+                      class="w-full h-full object-cover rounded-t-lg"
+                    />
+                  </div>
+                  <div class="project-overlay">
+                    <div class="flex space-x-4">
+                      <a
+                        href="https://github.com/NemesisID/BIOTA-Laravel-v1/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn"
+                        title="Lihat Kode"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">BIOTA Laravel Website</h3>
+                  <p class="text-gray-400 mb-4">
+                    Biodiversity Tracker and Awareness, A Website for Ecosystem
+                    Conservation in Indonesia.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                        alt="HTML5"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                        alt="CSS3"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                        alt="Tailwind CSS"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+                        alt="Laravel"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/livewire/livewire-original.svg"
+                        alt="Livewire"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                    <div
+                      class="bg-violet-500/20 border border-violet-500/30 rounded-full p-2"
+                    >
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                        alt="MySQL"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="project-card">
+                <div class="project-image">
+                  <div
+                    class="bg-gradient-to-br from-purple-500 to-pink-500 h-48 flex items-center justify-center"
+                  >
+                    <img
+                      src="assets/project3.png"
+                      alt="project1"
+                      class="w-full h-full object-cover rounded-t-lg"
+                    />
+                  </div>
+                  <div class="project-overlay">
+                    <div class="flex space-x-4">
+                      <a
+                        href="https://github.com/NemesisID/Program-Kasir-Kedai-Minuman-Ola-Ole/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn"
+                        title="Lihat Kode"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">Program Kasir UMKM</h3>
+                  <p class="text-gray-400 mb-4">
+                    E-Cashier Ola-Ole, a Desktop-Based Cashier System to Enhance
+                    Operational Efficiency for MSMEs.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <div class="bg-slate-700 rounded-full p-2">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualbasic/visualbasic-original.svg"
+                        alt="Visual Basic"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="project-card">
+                <div class="project-image">
+                  <div
+                    class="bg-gradient-to-br from-purple-500 to-pink-500 h-48 flex items-center justify-center"
+                  >
+                    <img
+                      src="assets/project4.png"
+                      alt="project1"
+                      class="w-full h-full object-cover rounded-t-lg"
+                    />
+                  </div>
+                  <div class="project-overlay">
+                    <div class="flex space-x-4">
+                      <a
+                        href="https://github.com/NemesisID/Aplikasi-Sistem-Manajemen-Perpustakaan-Musik/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn"
+                        title="Lihat Kode"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">
+                    Music Library Management
+                  </h3>
+                  <p class="text-gray-400 mb-4">
+                    Music Library Management System, a Java-based application
+                    for organizing a music collection.
+                  </p>
+                  <div class="flex flex-wrap gap-2">
+                    <div class="bg-slate-700 rounded-full p-2">
+                      <img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                        alt="Java"
+                        class="h-6 w-6"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="swiper-button-prev project-swiper-button-prev -left-4"
+        ></div>
+        <div
+          class="swiper-button-next project-swiper-button-next -right-4"
+        ></div>
+
+        <div class="swiper-pagination project-swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="py-20 relative z-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 section-title">
+            Experience
+          </h2>
+          <div
+            class="w-24 h-1 bg-gradient-to-r from-purple-400 to-teal-400 mx-auto"
+          ></div>
+        </div>
+
+        <div class="timeline relative max-w-3xl mx-auto px-4">
+          <div
+            class="absolute left-4 md:left-1/2 -translate-x-1/2 h-full w-0.5 bg-purple-500/20"
+          ></div>
+
+          <div class="timeline-item relative mb-8">
+            <div
+              class="timeline-dot absolute left-4 md:left-1/2 -translate-x-1/2 mt-2 w-4 h-4 bg-purple-500 rounded-full border-4 border-black"
+            ></div>
+            <div
+              class="timeline-card md:ml-auto md:w-5/12"
+              data-aos="fade-left"
+            >
+              <div
+                class="timeline-content bg-gray-900/70 backdrop-blur-sm border border-purple-500/30 p-6 rounded-lg shadow-lg transition-all duration-300 hover:border-purple-500/60 hover:shadow-purple-500/10"
+              >
+                <h3 class="text-lg font-bold text-white">Comitee of ANVERSE</h3>
+                <p class="text-purple-400 font-semibold mb-2">
+                  ANVERSE 15th - SMANEMA University Expo 15th | 2023
+                </p>
+                <p class="text-slate-300">
+                  Head of the publications and documentation division.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item relative mb-8">
+            <div
+              class="timeline-dot absolute left-4 md:left-1/2 -translate-x-1/2 mt-2 w-4 h-4 bg-purple-500 rounded-full border-4 border-black"
+            ></div>
+            <div
+              class="timeline-card md:mr-auto md:w-5/12"
+              data-aos="fade-right"
+            >
+              <div
+                class="timeline-content bg-gray-900/70 backdrop-blur-sm border border-purple-500/30 p-6 rounded-lg shadow-lg transition-all duration-300 hover:border-purple-500/60 hover:shadow-purple-500/10"
+              >
+                <h3 class="text-lg font-bold text-white">
+                  The Student Representative Council
+                </h3>
+                <p class="text-purple-400 font-semibold mb-2">
+                  HIMASIFO - UPN "Veteran" Jawa Timur | 2023 - 2024
+                </p>
+                <p class="text-slate-300">2023 Student Delegation.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item relative mb-8">
+            <div
+              class="timeline-dot absolute left-4 md:left-1/2 -translate-x-1/2 mt-2 w-4 h-4 bg-purple-500 rounded-full border-4 border-black"
+            ></div>
+            <div
+              class="timeline-card md:ml-auto md:w-5/12"
+              data-aos="fade-left"
+            >
+              <div
+                class="timeline-content bg-gray-900/70 backdrop-blur-sm border border-purple-500/30 p-6 rounded-lg shadow-lg transition-all duration-300 hover:border-purple-500/60 hover:shadow-purple-500/10"
+              >
+                <h3 class="text-lg font-bold text-white">
+                  Lecturer's Assistant
+                </h3>
+                <p class="text-purple-400 font-semibold mb-2">
+                  Sistem Informasi UPN "Veteran" Jawa Timur | 2024
+                </p>
+                <p class="text-slate-300">
+                  Lecturer's Assistant of Programming Language.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item relative mb-8">
+            <div
+              class="timeline-dot absolute left-4 md:left-1/2 -translate-x-1/2 mt-2 w-4 h-4 bg-purple-500 rounded-full border-4 border-black"
+            ></div>
+            <div
+              class="timeline-card md:mr-auto md:w-5/12"
+              data-aos="fade-right"
+            >
+              <div
+                class="timeline-content bg-gray-900/70 backdrop-blur-sm border border-purple-500/30 p-6 rounded-lg shadow-lg transition-all duration-300 hover:border-purple-500/60 hover:shadow-purple-500/10"
+              >
+                <h3 class="text-lg font-bold text-white">
+                  Alumni Association of Mojoagung State High School
+                </h3>
+                <p class="text-purple-400 font-semibold mb-2">
+                  Mojoagung State Senior High School | 2023 - Now
+                </p>
+                <p class="text-slate-300">
+                  Members of the Alumni Association of SMA Negeri Mojoagung.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item relative mb-8">
+            <div
+              class="timeline-dot absolute left-4 md:left-1/2 -translate-x-1/2 mt-2 w-4 h-4 bg-purple-500 rounded-full border-4 border-black"
+            ></div>
+            <div
+              class="timeline-card md:ml-auto md:w-5/12"
+              data-aos="fade-left"
+            >
+              <div
+                class="timeline-content bg-gray-900/70 backdrop-blur-sm border border-purple-500/30 p-6 rounded-lg shadow-lg transition-all duration-300 hover:border-purple-500/60 hover:shadow-purple-500/10"
+              >
+                <h3 class="text-lg font-bold text-white">
+                  Assistant of Information Systems Laboratory
+                </h3>
+                <p class="text-purple-400 font-semibold mb-2">
+                  Information Systems Laboratory UPN "Veteran" Jawa Timur | 2024
+                  - Now
+                </p>
+                <p class="text-slate-300">
+                  Part of Information Systems Laboratory Assistant.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 relative z-10">
+      <div class="max-w-4xl mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 section-title">
+            Let's Connect!
+          </h2>
+          <div
+            class="w-24 h-1 bg-gradient-to-r from-purple-400 to-teal-400 mx-auto"
+          ></div>
+        </div>
+
+        <div class="grid gap-8">
+          <div class="contact-info">
+            <h4 class="text-1xl font-bold mb-6 leading-relaxed">
+              I'm always interested in new opportunities and exciting projects.
+              Whether you have a project in mind or just want to chat about
+              technology, feel free to reach out!
+            </h4>
+            <div class="flex justify-center space-x-4 mt-8">
+              <a
+                href="https://github.com/NemesisID"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ragilhidayah/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/ragilhidayah_/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="mailto:ragilhidayatulloh01@gmail.com"
+                class="social-link"
+                target="_blank"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-8 border-t border-gray-800 relative z-10">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <p class="text-gray-400">
+          &copy; 2025 Ragil Hidayatulloh. Make it with
+          <i class="fas fa-brain text-red-400 mx-1"></i>
+          and lots of coffee.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
